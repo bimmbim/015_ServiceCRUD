@@ -18,3 +18,7 @@ const pool = new Pool({
   password: "",
   port: 5432,
 });
+
+app.get("/", (req, res) => {
+  console.log("TEST DATA :");
+});
